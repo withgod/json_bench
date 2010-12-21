@@ -2,6 +2,7 @@
 *.iws
 *.ipr
 target/*
+.idea/
 .project
 .classpath
 .settings/*
