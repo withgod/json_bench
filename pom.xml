@@ -8,7 +8,6 @@
     <packaging>jar</packaging>
 
     <name>json_bench</name>
-    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,8 +39,13 @@
     <dependencies>
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
-            <artifactId>jackson-asl</artifactId>
-            <version>0.9.5</version>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.6.3</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>20030203.000129</version>
         </dependency>
         <dependency>
             <groupId>org.twitter4j</groupId>
@@ -57,12 +61,6 @@
             <groupId>net.arnx.jsonic</groupId>
             <artifactId>jsonic</artifactId>
             <version>1.2.0</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>
