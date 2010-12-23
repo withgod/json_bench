@@ -9,6 +9,18 @@
 
     <name>json_bench</name>
 
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -60,7 +72,7 @@
         <dependency>
             <groupId>net.arnx.jsonic</groupId>
             <artifactId>jsonic</artifactId>
-            <version>1.2.0</version>
+            <version>[1.2,]</version>
         </dependency>
     </dependencies>
 </project>
